@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // integrates Tailwind into Vite’s pipeline
   ],
+  base: '/nicholus-portfolio/', // set the base path for GitHub Pages deployment
 })
